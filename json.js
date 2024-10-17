@@ -18,3 +18,5 @@ const shop ={
 }
 const shopJSON = JSON.stringify(shop);
 console.log(shopJSON);
+const shopParse = JSON.parse(shopJSON);
+console.log(shopParse);
